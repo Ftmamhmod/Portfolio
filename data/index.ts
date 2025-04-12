@@ -1,4 +1,4 @@
-import { Github, Linkedin, Youtube } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 const data = {
   home: {
@@ -26,35 +26,27 @@ const data = {
     projects: [
       {
         id: 1,
-        title: "Coder Woman Platform",
+        title: "Halal Market Platform",
         description:
-          "Platform to sell online courses, helping empower women in tech by making coding education accessible.\n\n Technologies Used: Next.js, React.js, CSS, Stripe API.",
-        image: "/projects-imgs/cw.png",
-        previewLink: "https://coderwoman.com",
-      },
-      {
-        id: 2,
-        title: "RetroCech Website",
-        description:
-          "A professional and visually appealing website that captures the vintage style of the business while ensuring smooth performance and easy navigation. \n\n Technologies Used: Next.js, Tailwind CSS, React.js.",
-        image: "/projects-imgs/retrocech.png",
-        previewLink: "https://retrocech.com",
+          "Worked on a e-commerce platform, as part of a Scrum team for 3 month, focusing on CRUDS and AUTH workflows. \n\n Technologies Used: React.js, Mui, Redux, TypeScript",
+        image: "/projects-imgs/halal.png",
+        previewLink: "http://41.33.54.162:8088/halal/",
       },
       {
         id: 3,
-        title: "E-commerce Platform",
+        title: "Tatwir platform",
         description:
-          "Worked on one of a biggest e-commerce platform in Poland, as part of a Scrum team for 1.5 years, focusing on checkout and payment workflows. \n\n Technologies Used: Next.js, React.js, Tailwind CSS, Stripe API.",
-        image: "/projects-imgs/e-commerce.png",
-        previewLink: "https://x-kom.pl",
+          "A Saudi-based platform. The initiative fosters innovation, offers training programs, and provides resources for startups and SMEs to enhance their technological and business capabilities.  \n\n Technologies Used: MUI, React.js.",
+        image: "/projects-imgs/Tatwir.png",
+        previewLink: "https://tatwir-ksa.com/",
       },
       {
-        id: 4,
-        title: "Personal Portfolio Website",
+        id: 3,
+        title: "Mrkoon Website",
         description:
-          "A reliable and polished website that makes it easy for the expert to share their skills and impress potential clients or employers. \n\n Technologies Used: Next.js, React.js, CSS.",
-        image: "/projects-imgs/lukaskadela.png",
-        previewLink: "https://lukaskadela.com",
+          "Mrkoon is a leading digital marketplace dedicated to sustainable industrial waste management, connecting companies with surplus materials to scrap traders and recyclers. \n\n Technologies Used: React.js, Tailwind CSS.",
+        image: "/projects-imgs/mrkoon.png",
+        previewLink: "https://mrkoonapp.com/",
       },
     ],
   },

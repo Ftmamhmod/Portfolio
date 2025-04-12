@@ -27,7 +27,7 @@ export default function ProjectsSection() {
             width={0}
             height={0}
           />
-          <h1 className="text-3xl md:text-4xl text-gradient-primary">
+          <h1 className="text-3xl md:text-4xl text-gradient-primary p-3">
             <span>{"//"}</span>
             Recent Projects
           </h1>

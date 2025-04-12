@@ -57,16 +57,19 @@ export default function AboutSection() {
             transition={{ delay: 0.7, ease: "easeIn", duration: 0.5 }}
             className="text-muted-foreground text-justify"
           >
-            Hey, I’m Aga Kadela, a Next.js & React developer who helps
-            businesses fix, optimize, scale, and build high-performance web
-            applications. If your app is slow, buggy, struggling to scale, or
-            missing key AI-driven features—I can help.
+            Hey, I’m Fatma Mahmoud, a React.JS developer who helps businesses
+            build high-performance web applications. With a strong focus on
+            clean code, responsive design, and seamless user experiences, I
+            specialize in creating scalable and efficient solutions tailored to
+            meet your unique needs,I’m passionate about delivering results that
+            drive growth and innovation. Let’s work together to bring your ideas
+            to life! .
             <br />
             <br />
             <span className="font-semibold">📌 What I Do Best:</span>
             <br />
-            ✅ Fixing Bugs & Broken Code – Debugging, API issues, UI glitches
-            that frustrate users.
+            ✅ Build Scalable Web Applications- I develop robust,
+            high-performance web applications using React.JS.
             <br />
             ✅ Optimizing Performance – Speeding up apps, improving SEO, and
             delivering a smooth experience.
@@ -77,8 +80,7 @@ export default function AboutSection() {
             ✅ Building from Scratch – Creating fast, scalable, and future-proof
             Next.js applications.
             <br />
-            ✅ AI-Powered Features – Automating workflows, integrating chatbots,
-            and enhancing user engagement.
+            ✅ Collaborate Effectively- I work closely with designers, back-end developers, and stakeholders to deliver seamless and cohesive solutions.
             <br />
             <br />
             <span className="font-semibold">📌 Why Work With Me?</span>

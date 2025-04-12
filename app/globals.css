@@ -4,62 +4,62 @@
 
 @layer base {
   :root {
-    /* Base colors */
-    --background: 0 0% 100%; /* #FFFFFF */
-    --foreground: 250 31% 43%; /* #574b90 */
+    /* Base colors - Black & Navy theme */
+    --background: 0 0% 100%; /* White */
+    --foreground: 220 40% 18%; /* Navy blue */
 
-    /* Primary - Pink */
-    --primary: 338 95% 76%; /* #fc85ae */
-    --primary-foreground: 0 0% 100%; /* #ffffff */
+    /* Primary - Navy blue */
+    --primary: 220 60% 30%; /* Rich navy */
+    --primary-foreground: 0 0% 100%; /* White */
 
-    /* Secondary - Purple */
-    --secondary: 302 28% 48%; /* #9e579d */
-    --secondary-foreground: 0 0% 100%; /* #ffffff */
+    /* Secondary - Dark navy */
+    --secondary: 220 50% 22%; /* Deep navy */
+    --secondary-foreground: 0 0% 100%; /* White */
 
-    /* Accent - Deep Purple */
-    --accent: 250 31% 43%; /* #574b90 */
-    --accent-foreground: 0 0% 100%; /* #ffffff */
+    /* Accent - Pure black */
+    --accent: 0 0% 0%; /* True black */
+    --accent-foreground: 0 0% 100%; /* White */
 
     /* Other UI elements */
     --card: 0 0% 100%;
-    --card-foreground: 250 31% 43%;
+    --card-foreground: 220 40% 18%;
     --popover: 0 0% 100%;
-    --popover-foreground: 250 31% 43%;
-    --muted: 250 31% 95%;
-    --muted-foreground: 250 31% 43%;
-    --destructive: 0 84.2% 60.2%;
+    --popover-foreground: 220 40% 18%;
+    --muted: 220 30% 96%; /* Very light blue */
+    --muted-foreground: 220 20% 40%; /* Medium blue */
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 250 31% 90%;
-    --input: 250 31% 90%;
-    --ring: 338 95% 76%;
+    --border: 220 20% 90%; /* Light blue */
+    --input: 220 20% 90%;
+    --ring: 220 60% 30%; /* Matching primary */
     --radius: 0.75rem;
 
-    /* Gradients */
-    --gradient-primary: hsl(338, 95%, 76%), hsl(302, 28%, 48%),
-      hsl(250, 31%, 43%);
-    --gradient-secondary: hsl(0, 0%, 100%), hsl(250, 31%, 43%);
+    /* Gradients - Navy to black */
+    --gradient-primary: hsl(220, 60%, 30%), hsl(220, 50%, 22%), hsl(0, 0%, 0%);
+    --gradient-secondary: hsl(0, 0%, 100%), hsl(220, 40%, 18%);
   }
 
   .dark {
-    --background: 250 31% 13%; /* Darker version of #574b90 */
-    --foreground: 0 0% 100%;
-    --card: 250 31% 13%;
-    --card-foreground: 0 0% 100%;
-    --popover: 250 31% 13%;
-    --popover-foreground: 0 0% 100%;
-    --primary: 338 95% 76%; /* #fc85ae */
-    --primary-foreground: 0 0% 100%;
-    --secondary: 302 28% 48%; /* #9e579d */
-    --secondary-foreground: 0 0% 100%;
-    --muted: 250 31% 20%;
-    --muted-foreground: 250 31% 80%;
-    --accent: 250 31% 43%; /* #574b90 */
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 250 31% 30%;
-    --input: 250 31% 30%;
-    --ring: 338 95% 76%;
+    /* Dark mode - Black with navy accents */
+    --background: 0 0% 5%; /* Near-black */
+    --foreground: 220 30% 85%; /* Light blue */
+    --card: 220 40% 8%; /* Navy-black */
+    --card-foreground: 220 30% 85%;
+    --popover: 220 40% 8%;
+    --popover-foreground: 220 30% 85%;
+    --primary: 220 60% 45%; /* Bright navy */
+    --primary-foreground: 220 30% 85%;
+    --secondary: 220 50% 25%; /* Medium navy */
+    --secondary-foreground: 220 30% 85%;
+    --muted: 220 35% 15%;
+    --muted-foreground: 220 25% 65%;
+    --accent: 0 0% 15%; /* Soft black */
+    --accent-foreground: 220 30% 85%;
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 220 30% 85%;
+    --border: 220 30% 20%;
+    --input: 220 30% 20%;
+    --ring: 220 60% 45%;
   }
 }
 
@@ -74,10 +74,10 @@
     @apply bg-background text-foreground size-full overflow-hidden;
   }
   .text-gradient-primary {
-    @apply bg-gradient-primary text-transparent bg-clip-text;
+    @apply bg-gradient-to-r from-blue-900 via-blue-800 to-black text-transparent bg-clip-text;
   }
   .text-gradient-secondary {
-    @apply bg-gradient-secondary text-transparent bg-clip-text;
+    @apply bg-gradient-to-r from-white to-blue-900 text-transparent bg-clip-text;
   }
 }
 

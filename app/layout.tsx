@@ -6,8 +6,7 @@ const firaCode = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default:
-      "Fatma Mahmoud Portfolio",
+    default: "Fatma Mahmoud Portfolio",
     template: "",
   },
   description:
@@ -45,8 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Fatma Mahmoud - React.js & Next.js Developer",
-    description:
-      "React.js & Next.js Developer",
+    description: "React.js & Next.js Developer",
     images: ["/imgs/website.png"],
   },
   robots: {
@@ -64,8 +62,8 @@ export const metadata: Metadata = {
     canonical: "",
   },
   icons: {
-    icon: "/imgs/logo.png",
-    apple: "/imgs/logo.png",
+    icon: "/imgs/logo.jpg",
+    apple: "/imgs/logo.jpg",
   },
 };
 

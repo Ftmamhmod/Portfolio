@@ -39,10 +39,10 @@ export default function Header() {
     <div className="w-full h-12 border-b bg-muted flex items-center">
       <div className="w-14 flex items-center justify-center flex-shrink-0 font-bold">
         <Image
-          src="/imgs/logo.png" // Update this path to match your logo's location in the public folder
-          alt="AK Logo"
-          width={24}
-          height={24}
+          src="/imgs/logo.png"
+          alt="Logo"
+          width={35}
+          height={35}
           className="object-contain"
         />
       </div>
