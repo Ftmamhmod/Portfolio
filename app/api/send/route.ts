@@ -9,8 +9,8 @@ export async function POST(request: Request) {
     const { from_name, from_email, message } = body;
 
     const data = await resend.emails.send({
-      from: "Fatma Mahmoud <onboarding@resend.dev>", // Update this with your verified domain
-      to: ["Ftmamhmod2@gmail.com"], // Your email where you want to receive messages
+      from: "Fatma Mahmoud <onboarding@resend.dev>",
+      to: ["Ftmamhmod2@gmail.com"],
       subject: `New Contact Form Message from ${from_name}`,
       text: `
 Name: ${from_name}
