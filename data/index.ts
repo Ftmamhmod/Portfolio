@@ -3,8 +3,7 @@ import { Github, Linkedin } from "lucide-react";
 const data = {
   home: {
     name: "Fatma Mahmoud",
-    description:
-      "I Fix, Optimize & Build #Next_js & #React Apps - Powered by #AI", // # -> for css style, _ -> create space, __ -> creates dash
+    description: "I Build  #React & #Next_js  Apps.",
     cvLink: "#contact",
   },
   sidebar: {
