@@ -47,6 +47,16 @@ const data = {
         image: "/projects-imgs/mrkoon.png",
         previewLink: "https://mrkoonapp.com/",
       },
+      {
+        id: 4,
+        title: "Book Store",
+        description:
+          " a modern and user-friendly online bookstore designed for book lovers. Browse a vast collection of genres, from bestsellers to hidden gems, and enjoy a seamless shopping experience with intuitive navigation, secure checkout, and quick delivery options \n\n Technologies Used: React.js, MUI and Type Scripte",
+        image: "/projects-imgs/Book store.png",
+        previewLink:
+          "https://book-store-n7jo97o50-ftmamhmods-projects.vercel.app/",
+        githubLink: "https://github.com/Ftmamhmod/Book-store",
+      },
     ],
   },
   technologies: {
