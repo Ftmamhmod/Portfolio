@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, User } from "lucide-react";
 
 const data = {
   home: {
@@ -17,6 +17,11 @@ const data = {
         name: "linkedin",
         link: "https://www.linkedin.com/in/ftmamhmod/",
         icon: Linkedin,
+      },
+      {
+        name: "C.V",
+        link: "https://drive.google.com/file/d/1-j7KJ_8toDqxvyZjFOIeK30ThMIsJlYW/view?usp=sharing",
+        icon: User,
       },
     ],
   },
@@ -56,6 +61,15 @@ const data = {
         previewLink:
           "https://book-store-n7jo97o50-ftmamhmods-projects.vercel.app/",
         githubLink: "https://github.com/Ftmamhmod/Book-store",
+      },
+      {
+        id: 5,
+        title: "Basket",
+        description:
+          " Basket is a modern, user-friendly e-commerce platform designed to provide a seamless shopping experience. Browse a curated selection of high-quality products, from electronics and fashion to home essentials, all in one place \n\n Technologies Used: React.js, Tailwind CSS and JavaScript",
+        image: "/projects-imgs/Book store.png",
+        previewLink: "https://basket-ihgw.vercel.app/",
+        githubLink: "https://github.com/Ftmamhmod/Basket",
       },
     ],
   },
