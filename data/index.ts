@@ -67,7 +67,7 @@ const data = {
         title: "Basket",
         description:
           " Basket is a modern, user-friendly e-commerce platform designed to provide a seamless shopping experience. Browse a curated selection of high-quality products, from electronics and fashion to home essentials, all in one place \n\n Technologies Used: React.js, Tailwind CSS and JavaScript",
-        image: "/public/projects-imgs/Basket.png",
+        image: "/projects-imgs/Basket.png",
         previewLink: "https://basket-ihgw.vercel.app/",
         githubLink: "https://github.com/Ftmamhmod/Basket",
       },
