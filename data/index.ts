@@ -71,6 +71,24 @@ const data = {
         previewLink: "https://basket-ihgw.vercel.app/",
         githubLink: "https://github.com/Ftmamhmod/Basket",
       },
+      {
+        id: 6,
+        title: "Food App",
+        description:
+          " Food App is a web application designed to be your go-to destination for culinary discovery and recipe management. It transforms cooking from a chore into an enjoyable experience by providing a vast collection of recipes, powerful search tools, and personalized features to help users find delicious meals. \n\n Technologies Used: React.js, Bootstrap CSS, JWT and JavaScript ",
+        image: "/projects-imgs/Food App.png",
+        previewLink: "https://food-app-gamma-nine.vercel.app/",
+        githubLink: "https://github.com/Ftmamhmod/Food-App",
+      },
+      {
+        id: 7,
+        title: "Scout",
+        description:
+          " Scout is a landing page template designed for showcasing your app or product. \n\n Technologies Used: React.js, Tailwind CSS, JWT and TypeScript ",
+        image: "/projects-imgs/Scout.png",
+        previewLink: "https://scout-pi-lime.vercel.app/",
+        githubLink: "https://github.com/Ftmamhmod/Scout",
+      },
     ],
   },
   technologies: {
